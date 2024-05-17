@@ -2,12 +2,12 @@
 
 // creo un array di oggetti
 const bikes = [
-    // { model: 'Mountain Bike', weight: 17 },
-    // { model: 'City Bike', weight: 12.7 },
-    // { model: 'BMX Bike', weight: 27 },
-    // { model: 'Canyon Spectral Bike', weight: 9.1 },
-    // { model: 'Eleglide Bike', weight: 7.3 },
-    // { model: 'Carbon Bike', weight: 21 },
+    { model: 'Mountain Bike', weight: 17 },
+    { model: 'City Bike', weight: 12.7 },
+    { model: 'BMX Bike', weight: 27 },
+    { model: 'Canyon Spectral Bike', weight: 9.1 },
+    { model: 'Eleglide Bike', weight: 7.3 },
+    { model: 'Carbon Bike', weight: 21 },
 ];
 
 // inserisco in un array tutti i valori dei pesi
