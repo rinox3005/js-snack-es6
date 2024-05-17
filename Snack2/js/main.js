@@ -12,9 +12,9 @@ const teams = [
 ];
 
 // assegno ai valori delle chiavi punti e falli i numeri generati randomicamente
-Object.keys(teams).forEach((item) => {
-    teams[item].points = randomNumGen(1, 80);
-    teams[item].fouls = randomNumGen(1, 100);
+Object.keys(teams).forEach((club) => {
+    teams[club].points = randomNumGen(1, 80);
+    teams[club].fouls = randomNumGen(1, 100);
 })
 // creo un nuovo array di oggetti che contengono soltanto le chiavi-valori club e fouls
 const newTeams = teams.map(({ club, fouls }) => ({ club, fouls }));
